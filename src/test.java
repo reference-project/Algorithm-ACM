@@ -1,8 +1,8 @@
+import java.util.Arrays;
+
 public class test {
     public static void main(String[] args) {
-        int a=-1;
-        int b=1;
-        int c=a&b;
-        System.out.println(c);
+        int [] c=new int[9];
+        System.out.println(Arrays.toString(c));
     }
 }

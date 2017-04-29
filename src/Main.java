@@ -1,5 +1,5 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println(new NQueens().dfs(0));
+        System.out.println(new QuickPow().quickPow(3,3));
     }
 }

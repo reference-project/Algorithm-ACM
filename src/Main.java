@@ -1,7 +1,15 @@
 public class Main {
     public static void main(String[] args) {
-        int[] a={1,2,3,4,5,6,7,8};
-        int[] b={3,2,3,7,5,6,0,6};
-        System.out.println(Gcis.gcis(a,b));
+        list a=new list(0);
+        list b=new list(1);
+        list c=new list(2);
+        list d=new list(3);
+        a.next=b;
+        b.next=c;
+        c.next=d;
+        d.next=null;
+        a=ReverseList.reverseList(a);
+        for(list e=a;e!=null;e=e.next)
+            System.out.println(e.val);
     }
 }

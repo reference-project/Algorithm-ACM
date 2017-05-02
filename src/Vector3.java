@@ -31,7 +31,7 @@ public class Vector3 {
     double dotMul(Vector3 b){return x*b.x+y*b.y+z*b.z;}
     //叉乘
     Vector3 crossMul(Vector3 b){
-        return new Vector3(y*b.z-z*b.y,x*b.z-z*b.x,x*b.y-y*b.x);
+        return new Vector3(y*b.z-z*b.y,-x*b.z+z*b.x,x*b.y-y*b.x);
     }
     //是否垂直
     boolean isVertical(Vector3 b){
